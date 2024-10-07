@@ -1,0 +1,24 @@
+.pp {
+	position: relative;
+	width: max-content;
+}
+
+.pp .picture {
+	background: center/cover
+		url(https://pics.craiyon.com/2023-07-07/67e29100f11041d983c0dbee0627f6d5.webp);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: solid 2px black;
+}
+
+.pp .circle {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	bottom: 0px;
+	right: 4px;
+	background-color: green;
+	border: solid 2px black;
+}
